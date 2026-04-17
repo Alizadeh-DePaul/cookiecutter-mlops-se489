@@ -1,0 +1,16 @@
+{
+    "project_name": "SE 489 MLOps Project",
+    "repo_name": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+    "author_name": "Your name (or your team name)",
+    "author_email": "your.email@depaul.edu",
+    "description": "A short description of the project.",
+    "python_version": ["3.11", "3.12", "3.13"],
+    "open_source_license": ["MIT", "BSD-3-Clause", "No license file"],
+    "ml_framework": ["pytorch", "tensorflow", "scikit-learn"],
+    "use_dvc": ["no", "yes"],
+    "include_docker": ["yes", "no"],
+    "experiment_tracking": ["mlflow", "wandb", "none"],
+    "include_hydra": ["no", "yes"],
+    "include_github_actions": ["yes", "no"],
+    "include_fastapi": ["no", "yes"]
+}

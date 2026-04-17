@@ -1,0 +1,21 @@
+site_name: {{ cookiecutter.project_name }}
+site_description: "{{ cookiecutter.description }}"
+site_author: "{{ cookiecutter.author_name }}"
+
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+
+nav:
+  - Home: index.md
+  - Getting Started: getting_started.md
+  - API Reference: api.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - toc
